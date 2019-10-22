@@ -1,0 +1,41 @@
+---
+extends: airbnb-base
+plugins:
+  - import
+parserOptions:
+  ecmaVersion: 11
+  sourceType: script
+env:
+  node: true
+rules:
+  operator-linebreak:
+    - error
+    - after
+  newline-before-return: error
+  newline-after-var: error
+  linebreak-style: "off"
+  no-console: "off"
+  function-paren-newline: 
+    - error
+    - multiline
+  require-jsdoc:
+    - error
+    - require:
+        FunctionDeclaration: true
+        MethodDefinition: true
+        ClassDeclaration: false
+        ArrowFunctionExpression: false
+  valid-jsdoc:
+    - error
+    - prefer:
+        arg: param
+        argument: param
+        return: returns
+        virtual: abstract
+      preferType:
+        object: Object
+  import/no-extraneous-dependencies:
+    - error
+  strict:
+    - error
+    - safe
