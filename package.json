@@ -17,6 +17,11 @@
     "url": "https://github.com/EvanJJones/Advent/issues"
   },
   "homepage": "https://github.com/EvanJJones/Advent#readme",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "uuid": "3.3.3",
+    "xregexp": "4.2.4"
+  },
   "devDependencies": {
     "eslint": "6.5.1",
     "eslint-config-airbnb-base": "14.0.0",
