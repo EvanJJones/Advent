@@ -1,4 +1,5 @@
 # Standard stuff
 node_modules
+*.code-workspace
 
 2018/Carmine/Unreleased/**
